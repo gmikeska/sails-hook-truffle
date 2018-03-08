@@ -1,0 +1,19 @@
+{
+  "name": "sails-hook-truffle",
+  "version": "1.0.0",
+  "description": "A hook which handles all contract parsing and instantiation via truffle.",
+  "main": "index.js",
+  "sails": {
+    "isHook": true
+  },
+  "author": "Greg Mikeska",
+  "license": "GPL",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "truffle-compile": "^3.0.5",
+    "truffle-deployer": "^2.0.2",
+    "truffle-expect": "0.0.3",
+    "truffle-require": "^1.0.5",
+    "truffle-resolver": "^4.0.1"
+  }
+}
