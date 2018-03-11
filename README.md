@@ -3,10 +3,10 @@ A hook which handles all contract parsing and instantiation via truffle.
 
 ### Installing the Hook
 
-#### On existing Sails & Truffle projects.
+#### On existing Sails & Truffle projects:
 
 1. Copy contracts folder and truffle.js (or truffle-config.js depending on which your project is using) from your truffle project into the sails project.
-0. `npm install -s sails-hook-truffle`
+1. In your sails project, run `npm install -s sails-hook-truffle`
 
 ### Usage:
 If your contract's filename is `ContractName.sol`:
