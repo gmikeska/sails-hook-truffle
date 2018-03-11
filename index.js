@@ -131,6 +131,16 @@ module.exports =  function(sails)
           sails.config[this.configKey].port = this.defaults.port
 
 
-     }
+     }, routes: {
+      before: {
+        'GET /contracts/:contractName': function (req, res, next) {
+          name = req.allParams()['contractName']
+          console.log(name)
+          sails[name].deployed().then((contractObject)=>{
+            return res.send({address:contractObject.address, abi:contractObject.abi})
+          })
+        }
+      }
+    }
    }
 }
