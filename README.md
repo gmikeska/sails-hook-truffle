@@ -1,5 +1,5 @@
 # sails-hook-truffle
-A hook for sails.js which handles all contract parsing and instantiation via truffle.
+A hook for sails.js which handles parsing and instantiation of contracts on Ethereum based consensus networks via truffle.
 
 ### Installing the Hook
 
