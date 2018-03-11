@@ -1,6 +1,6 @@
 {
   "name": "sails-hook-truffle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A hook for sails.js which handles parsing and instantiation of contracts on Ethereum based consensus networks via truffle.",
   "main": "index.js",
   "sails": {
