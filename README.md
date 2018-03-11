@@ -1,5 +1,5 @@
 # sails-hook-truffle
-A hook which handles all contract parsing and instantiation via truffle.
+A hook for sails.js which handles all contract parsing and instantiation via truffle.
 
 ### Installing the Hook
 
