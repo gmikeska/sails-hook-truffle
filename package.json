@@ -10,7 +10,7 @@
     "blockchain",
     "cryptocurrency"
   ],
-  "version": "1.0.33",
+  "version": "1.0.34",
   "description": "A hook for sails.js which handles parsing and instantiation of contracts on Ethereum based consensus networks via truffle.",
   "main": "index.js",
   "sails": {
