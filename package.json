@@ -17,7 +17,7 @@
     "isHook": true
   },
   "author": "Greg Mikeska",
-  "license": "BSD",
+  "license": "BSD-2-Clause",
   "repository": {
     "type": "git",
     "url": "git://github.com/gmikeska/sails-hook-truffle.git"
@@ -28,10 +28,10 @@
   "dependencies": {
     "bignumber": "^1.1.0",
     "mkdirp": "^0.5.1",
-    "truffle-compile": "^3.0.5",
-    "truffle-deployer": "^2.0.2",
+    "truffle-compile": "^3.0.7",
+    "truffle-deployer": "^2.0.3",
     "truffle-expect": "0.0.3",
     "truffle-require": "^1.0.5",
-    "truffle-resolver": "^4.0.1"
+    "truffle-resolver": "^4.0.2"
   }
 }
